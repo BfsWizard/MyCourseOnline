@@ -5,6 +5,7 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>eureka</module>
+		<module>system</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -48,6 +49,14 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+
+			<!-- 读xml
+			<dependency>
+				<groupId>org.dom4j</groupId>
+				<artifactId>dom4j</artifactId>
+				<version>2.1.1</version>
+			</dependency>-->
+
 		</dependencies>
 	</dependencyManagement>
 
