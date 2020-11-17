@@ -226,12 +226,12 @@
               &nbsp;
               <span class="blue">/</span>
               &nbsp;
-              <a id="btn-login-blur" href="#">Blur</a>
+              <a id="btn-login-blur" hresf="#">Blur</a>
               &nbsp;
               <span class="blue">/</span>
               &nbsp;
               <a id="btn-login-light" href="#">Light</a>
-              &nbsp; &nbsp; &nbsp;
+              &nbsp; &nbsp;
             </div>
           </div>
         </div><!-- /.col -->
