@@ -226,7 +226,7 @@
               &nbsp;
               <span class="blue">/</span>
               &nbsp;
-              <a id="btn-login-blur" hresf="#">Blur</a>
+              <a id="btn-login-blur" href="#">Blur</a>
               &nbsp;
               <span class="blue">/</span>
               &nbsp;
