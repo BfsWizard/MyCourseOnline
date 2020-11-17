@@ -1,4 +1,4 @@
-package course.system;
+package course.system.config;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,10 +11,10 @@ import org.springframework.core.env.Environment;
 @EnableEurekaClient
 public class SystemApplication {
 
-	private static final Logger LOG = LoggerFactory.getLogger(course.system.SystemApplication.class);
+	private static final Logger LOG = LoggerFactory.getLogger(SystemApplication.class);
 
 	public static void main(String[] args) {
-		SpringApplication app = new SpringApplication(course.system.SystemApplication.class);
+		SpringApplication app = new SpringApplication(SystemApplication.class);
 		//SpringApplication.run(EurekaApplication.class, args);
 		Environment env = app.run(args).getEnvironment();
 		LOG.info("启动成功！！");

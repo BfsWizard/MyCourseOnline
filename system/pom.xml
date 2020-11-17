@@ -38,6 +38,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
         </dependency>
+        <!--集成server模块-->
+        <dependency>
+            <groupId>com.MyCourseOnline</groupId>
+            <artifactId>server</artifactId>
+        </dependency>
 
     </dependencies>
 
